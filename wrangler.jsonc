@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pg_hono",
+  "compatibility_date": "2025-08-03",
+  "main": "./src/index.tsx",
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "50c252391d8a47ec9cbacdaf1b73468d"
+    }
+  ]
+}
